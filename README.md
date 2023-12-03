@@ -4,6 +4,7 @@
 
 **ESPECIALIZACION EN INTELIGENCIA ARTIFICIAL**
 
+Docente: Rodrigo Cárdenas
 Alumno: Albachiaro Leandro
 
 En este repositorio se encontrarán y detallarán los conocimientos adquiridos durante la materia Procesamiento del Lenguaje Natural, como también cada uno de los desafíos superados y una breve explicación de los mismos.
@@ -65,4 +66,13 @@ Debido al desbalance de datos se utilizó la métrica F1-score y se concluyó qu
 
 [Link a la carpeta del desafío](https://github.com/LeandroAlbachiaro/Entregas_PLN/tree/da3a032e14586bf70601c75554f305a28dbb0d65/Desafio_5)
 
-## Desafío 6 - xxx
+## Desafío 6 - Bot QA
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6G8rU7A_PzHNsIEA9ZD92c1an6X1Xwhl5u_TZK3ilBHo5FncUp9XkO_SGjqKyI6-weRU&usqp=CAU" width="300" height="300">
+
+En el último desafío aplicamos todos los conocimientos adquiridos en la materia, utilizando un set de datos de ConvAI2 (Conversational Intelligence Challenge 2), construimos un BOT para responder preguntas de un usuario.
+
+Para esto, se realiza el preprocesamiento correspondiente, se utilizan embeddings de Glove y se entrena un modelo basado en el esquema encoder-decoder con capas LSTM.
+
+Luego se realizan inferencias para testear el funcionamiento del mismo.
+
+[Link a la carpeta del desafío](https://github.com/LeandroAlbachiaro/Entregas_PLN/tree/aeadc95df2ff84859aec06f57b6ac96f89f1ad3a/Desafio_6)
