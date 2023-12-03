@@ -41,9 +41,28 @@ Finalmente se visualizan los vectores generados utilizando tecnicas de reducció
 [Link a la carpeta del desafío](https://github.com/LeandroAlbachiaro/Entregas_PLN/tree/da3a032e14586bf70601c75554f305a28dbb0d65/Desafio_3)
 
 ## Desafío 4 - Predicción de próxima palabra
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgxdyQin7ncY-md1VaOsUqx9C4sJwOoyBovWUHltsZ1e6V8Le3OLrqxkz82m8UxPiqLFg&usqp=CAU" width="600" height="250">
+
+Habiendo ya aprendido los métodos de preprocesamiento y de generación de embeddings, en este desafío creamos los primeros modelos de RNN y BRNN que se utilizan para predecir la siguiente palabra de una oración, en este caso se utilizó el libro "Los Miserables" como corpus.
+
+Los resultados no fueron satisfactorios, debido a que estos modelos tienden a predecir las palabras más comunes del vocabulario, como por ejemplo los conectores.
+
+Cabe aclarar que el rendimiento de estos modelos puede mejorar utilizando corpus mucho mas grandes y también con embeddings y modelos preentrenados. 
+
 [Link a la carpeta del desafío](https://github.com/LeandroAlbachiaro/Entregas_PLN/tree/da3a032e14586bf70601c75554f305a28dbb0d65/Desafio_4)
 
 ## Desafío 5 - Análisis de sentimientos
+<img src="https://1.bp.blogspot.com/-C03j8yr-Xds/XcxXmpG5biI/AAAAAAAAB90/yQJ49G3nEscdgrSGTSW_ODHvfRIrr19xgCPcBGAYYCw/s1600/shutterstock_1073953772-860x9999.jpg" width="600" height="300">
+
+En este desafío contamos con un dataset de opiniones de un local de E-commerce que se encuentra desbalanceado, para comparar resultados, se entrenaron 4 modelos en total con las siguientes características:
+
+ * Dataset desbalanceado y embeddings propios.
+ * Dataset desbalanceado y embeddings preentrenados.
+ * Dataset balanceado y embeddings propios.
+ * Dataset balanceado y embeddings preentrenados
+
+Debido al desbalance de datos se utilizó la métrica F1-score y se concluyó que el modelo con el dataset balanceado y embeddings propios fue el de mejor rendimiento.
+
 [Link a la carpeta del desafío](https://github.com/LeandroAlbachiaro/Entregas_PLN/tree/da3a032e14586bf70601c75554f305a28dbb0d65/Desafio_5)
 
 ## Desafío 6 - xxx
